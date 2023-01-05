@@ -31,8 +31,8 @@ public class Employee {
 	private String panNo;
 	private double salary;
 	
-	
-	 @OneToMany(cascade=CascadeType.ALL)
-	 private List<Address> address;
-	 
+//test
+	/*
+	 * @OneToMany(cascade=CascadeType.ALL) private List<Address> address;
+	 */	 
 }
