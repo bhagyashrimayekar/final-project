@@ -38,8 +38,9 @@ public class Customer {
 	private String emailId;
 	private long accountNo;
 	private long debitcardNo;
-	@OneToMany(cascade=CascadeType.ALL)
-	private List<Address> address;
+	/*
+	 * @OneToMany(cascade=CascadeType.ALL) private List<Address> address;
+	 */
 	
 	
 
